@@ -1,12 +1,12 @@
 export const profile = {
   name: "Sanjay Kumar Singh",
-  title: "Professor & Head",
+  title: "Professor & Former Head",
   department: "Department of Computer Science & Engineering",
   institution: "Indian Institute of Technology (BHU), Varanasi",
   phone: "+91 95543 21133",
   email: "sks.cse@iitbhu.ac.in",
   summary:
-    "Prof. S. K. Singh is Professor and Head in the Department of Computer Science & Engineering at IIT (BHU), Varanasi. His work spans biometrics, computer vision, biomedical image analysis, intelligent systems, IoT, AI for healthcare, and security-focused multimedia computing.",
+    "Prof. S. K. Singh is Professor and Former Head in the Department of Computer Science & Engineering at IIT (BHU), Varanasi. His work spans biometrics, computer vision, biomedical image analysis, intelligent systems, IoT, AI for healthcare, and security-focused multimedia computing.",
   focus:
     "Research directions include biometric recognition, medical image analysis, animal biometrics, explainable AI, IoT-enabled health systems, smart environments, data-centric AI, and secure multimedia analytics."
 };
@@ -107,9 +107,9 @@ export const books = [
 
 export const experience = [
   "Professor, Department of CSE, IIT (BHU), 2017-continuing",
-  "Professor & Head, Department of CSE, IIT (BHU), 2021-2024",
+  "Professor & Former Head, Department of CSE, IIT (BHU), 2021-2024",
   "Associate Professor, Department of CSE, IIT (BHU), 2007-2017",
-  "Head, Department of Computer Science and Engineering, VBSPU, 1997-2007"
+  "Former Head, Department of Computer Science and Engineering, VBSPU, 1997-2007"
 ];
 
 export const administration = [
