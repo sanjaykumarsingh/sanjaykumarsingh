@@ -3,23 +3,25 @@ import Link from "next/link";
 import { projects, profile, recognitions, researchAreas, stats } from "@/lib/site-data";
 
 export default function Home() {
+  const assetPath = "/sanjaykumarsingh";
+
   return (
     <>
       <section className="relative min-h-[78vh] overflow-hidden bg-white">
         <Image
-          src="/images/campus-hero.png"
+          src={`${assetPath}/images/campus-hero.png`}
           alt="Academic campus building"
           fill
           priority
-          className="object-cover opacity-45 grayscale"
+          className="object-cover opacity-450 "
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-white via-white/75 to-white/20" />
+        <div className="absolute inset-0  from-white via-white/75 to-white/20" />
         <div className="page-band relative flex min-h-[78vh] items-center py-14">
           <div className="max-w-xl rounded-md border border-line bg-white p-8 shadow-soft">
             <div className="mb-7 flex items-center gap-5">
               <div className="relative h-28 w-28 shrink-0 overflow-hidden rounded-md border border-line bg-paper shadow-sm sm:h-32 sm:w-32">
                 <Image
-                  src="/images/sk-sir.png"
+                  src={`${assetPath}/images/sk-sir.png`}
                   alt="Prof. Sanjay Kumar Singh"
                   fill
                   sizes="128px"
