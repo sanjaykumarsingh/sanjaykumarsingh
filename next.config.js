@@ -1,15 +1,14 @@
-const isGithubPages = process.env.GITHUB_PAGES === "true" || process.env.NODE_ENV === "production";
-const repoName = "sanjay_kumar_singh";
+const repoName = "sanjaykumarsingh";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
   images: {
-    unoptimized: true
+    unoptimized: true,
   },
   trailingSlash: true,
-  basePath: isGithubPages ? `/${repoName}` : undefined,
-  assetPrefix: isGithubPages ? `/${repoName}/` : undefined
+  basePath: `/${repoName}`,
+  assetPrefix: `/${repoName}/`,
 };
 
 module.exports = nextConfig;
