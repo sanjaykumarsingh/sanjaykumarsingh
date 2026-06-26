@@ -19,7 +19,7 @@ export default function Home() {
             <div className="mb-7 flex items-center gap-5">
               <div className="relative h-28 w-28 shrink-0 overflow-hidden rounded-md border border-line bg-paper shadow-sm sm:h-32 sm:w-32">
                 <Image
-                  src="/images/sk sir.png"
+                  src="/images/sk-sir.png"
                   alt="Prof. Sanjay Kumar Singh"
                   fill
                   sizes="128px"
