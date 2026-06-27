@@ -13,9 +13,9 @@ export default function Home() {
           alt="Academic campus building"
           fill
           priority
-          className="object-cover opacity-450 "
+          className="object-cover opacity-45 grayscale"
         />
-        <div className="absolute inset-0  from-white via-white/75 to-white/20" />
+        <div className="absolute inset-0 bg-gradient-to-r from-white via-white/75 to-white/20" />
         <div className="page-band relative flex min-h-[78vh] items-center py-14">
           <div className="max-w-xl rounded-md border border-line bg-white p-8 shadow-soft">
             <div className="mb-7 flex items-center gap-5">
