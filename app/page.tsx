@@ -3,13 +3,11 @@ import Link from "next/link";
 import { projects, profile, recognitions, researchAreas, stats } from "@/lib/site-data";
 
 export default function Home() {
-  const assetPath = "/sanjaykumarsingh";
-
   return (
     <>
       <section className="relative min-h-[78vh] overflow-hidden bg-white">
         <Image
-          src={`${assetPath}/images/campus-hero.png`}
+          src="/images/campus-hero.png"
           alt="Academic campus building"
           fill
           priority
@@ -21,7 +19,7 @@ export default function Home() {
             <div className="mb-7 flex items-center gap-5">
               <div className="relative h-28 w-28 shrink-0 overflow-hidden rounded-md border border-line bg-paper shadow-sm sm:h-32 sm:w-32">
                 <Image
-                  src={`${assetPath}/images/sk-sir.png`}
+                  src="/images/sk-sir.png"
                   alt="Prof. Sanjay Kumar Singh"
                   fill
                   sizes="128px"
